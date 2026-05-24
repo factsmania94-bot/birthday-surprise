@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Bestie's Birthday Surprise 🎂</title>
+<title>dear saloniii ❤️'s Birthday Surprise 🎂</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -458,7 +458,7 @@ position:relative;overflow:hidden;transition:border-color .2s;display:block;
       </div>
     </div>
     <div class="home-tagline" id="disp-home-tagline">you are the one who makes my every day brighter 🫂</div>
-    <div class="home-name" id="disp-home-name">Bestie</div>
+    <div class="home-name" id="disp-home-name">dear saloniii ❤️</div>
     <div style="text-align:center">
       <div class="home-loved-pill">🎂 Celebrated &amp; Forever Cherished 🎂</div>
     </div>
@@ -488,9 +488,9 @@ position:relative;overflow:hidden;transition:border-color .2s;display:block;
     </div>
     <div class="letter-card">
       <div class="letter-text" id="disp-letter-text">
-        Happy Birthday, bestie! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨
+        Happy Birthday, dear saloniii ❤️! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨
       </div>
-      <div class="letter-sign">— with love,<strong id="disp-letter-sign">Your Bestie</strong></div>
+      <div class="letter-sign">— with love,<strong id="disp-letter-sign">Your dear saloniii ❤️</strong></div>
     </div>
     <div class="balloons-cta">You Deserve this Dear 💕</div>
     <div style="flex:1"></div>
@@ -506,7 +506,7 @@ position:relative;overflow:hidden;transition:border-color .2s;display:block;
       <span id="polaroid-placeholder">📸</span>
     </div>
     <div class="polaroid-caption" id="polaroid-caption">My forever favourite human 🥰</div>
-    <div class="polaroid-from" id="polaroid-from">WITH LOVE FROM YOUR BESTIE 🎉</div>
+    <div class="polaroid-from" id="polaroid-from">WITH LOVE FROM YOUR dear saloniii ❤️ 🎉</div>
   </div>
   <button class="btn-pop-another" onclick="closeOverlay()">🎈 POP ANOTHER BALLOON</button>
   <div class="overlay-cta">You Deserve this Dear 💕</div>
@@ -535,12 +535,12 @@ position:relative;overflow:hidden;transition:border-color .2s;display:block;
   <div class="edit-box">
     <h3>✏️ Edit Surprise <button class="edit-close" onclick="closeEdit()">✕</button></h3>
     <div class="edit-group">
-      <label>Bestie's Name</label>
-      <input type="text" id="e-her-name" value="Bestie"/>
+      <label>dear saloniii ❤️'s Name</label>
+      <input type="text" id="e-her-name" value="dear saloniii ❤️"/>
     </div>
     <div class="edit-group">
       <label>Your Name (sender)</label>
-      <input type="text" id="e-your-name" value="Your Bestie"/>
+      <input type="text" id="e-your-name" value="Your dear saloniii ❤️"/>
     </div>
     <div class="edit-group">
       <label>Home Tagline</label>
@@ -559,7 +559,7 @@ position:relative;overflow:hidden;transition:border-color .2s;display:block;
     </div>
     <div class="edit-group">
       <label>Birthday Letter / Message</label>
-      <textarea id="e-letter">Happy Birthday, bestie! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨</textarea>
+      <textarea id="e-letter">Happy Birthday, dear saloniii ❤️! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨</textarea>
     </div>
     <div class="edit-group">
       <label>🎵 Background Music (MP3, any song)</label>
@@ -595,8 +595,8 @@ let balloonEditorCount = 0;
    Paths are relative to index.html (root of the repo).
 ════════════════════════════════════════════════════ */
 const state = {
-  herName:  'Bestie',
-  yourName: 'Your Bestie',
+  herName:  'dear saloniii ❤️',
+  yourName: 'Your dear saloniii ❤️',
   tagline:  'you are the one who makes my every day brighter 🫂',
   bdayYear: '2026',
  
@@ -606,7 +606,7 @@ const state = {
   homePhotoSrc: 'images/hero.jpg',
  
   letter:
-    "Happy Birthday, bestie! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨",
+    "Happy Birthday, dear saloniii ❤️! 🎂 Thank you for always being there for me, making me laugh until my stomach hurts, and standing by my side through everything. You make every moment more fun and every hard day easier. I am so lucky to call you my best friend. Wishing you the most magical birthday ever! 🎉✨",
  
   /* ── GitHub Pages permanent balloon photos ──────────
      Commit photos as  images/photo1.jpg … photo4.jpg
@@ -936,8 +936,8 @@ function handleBalloonPhoto(idx, input){
 }
  
 function saveAll(){
-  state.herName  = document.getElementById('e-her-name').value.trim()  || 'Bestie';
-  state.yourName = document.getElementById('e-your-name').value.trim() || 'Your Bestie';
+  state.herName  = document.getElementById('e-her-name').value.trim()  || 'dear saloniii ❤️';
+  state.yourName = document.getElementById('e-your-name').value.trim() || 'Your dear saloniii ❤️';
   state.tagline  = document.getElementById('e-tagline').value.trim();
   state.bdayYear = document.getElementById('e-bday-year').value.trim();
   state.letter   = document.getElementById('e-letter').value.trim();
